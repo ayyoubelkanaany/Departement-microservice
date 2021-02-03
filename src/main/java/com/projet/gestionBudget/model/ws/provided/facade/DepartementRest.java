@@ -19,7 +19,6 @@ import io.swagger.annotations.ApiOperation;
 
 
 @Api("Cette classe permet la gestion de departement")
-@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 public class DepartementRest {
 	@Autowired
